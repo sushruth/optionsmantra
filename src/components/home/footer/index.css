@@ -1,0 +1,40 @@
+.bottom {
+    padding:60px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homeLogoBottom {
+	fill:#fff;
+	height:100px;
+}
+
+.logoSide {
+    align-self: center;
+    padding-left:20px;
+}
+
+.companyName {
+    font-size: 22pt;
+}
+
+.companyTagline {
+    font-size: 10pt;
+    font-family: 'Lato', sans-serif;
+}
+
+.contactInfo {
+    align-items: center;
+}
+
+.email {
+    padding-right:15px;
+    border-right:1px solid rgba(255,255,255,0.2);
+    margin-right:15px;
+}
+
+.phoneIcon {
+    padding-right:10px;
+}

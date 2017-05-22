@@ -1,0 +1,33 @@
+div.container {
+    flex-direction: column;
+    height: 100%;
+    background: #02182d url('../../assets/images/bkg.jpg');
+	background-size: cover;
+}
+
+.middle {
+    align-self: center;
+    display: flex;
+    width:800px;
+    text-align: center;
+}
+
+.mainTitle {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40pt;
+    padding:0 60px 30px;
+    vertical-align: baseline;
+    border-bottom: 2px solid #145b8a;
+}
+
+.mainText {
+    font-size: 12pt;
+    line-height: 1.5;
+    text-align: center;
+    padding:30px 60px;
+    color:#84b7d8;
+}
+
+.middleContainer {
+    justify-content: center;
+}

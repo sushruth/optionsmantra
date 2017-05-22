@@ -1,0 +1,30 @@
+.topContainer {
+    padding: 40px;
+    font-size: 10pt;
+}
+
+.navlinks {
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+}
+
+.navlinks>li {
+    padding: 0 20px;
+    color: #4a758f;
+    transition: color 0.1s ease-in-out;
+	border-right: 1px solid #305d79;
+    cursor: pointer;
+    align-self: center;
+}
+
+.navlinks>li:last-child {
+	border-right:none;
+}
+
+.navlinks>li:hover {
+    color: #fff;
+}
+
+.topButtons {
+    padding:0 20px;
+}

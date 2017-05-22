@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Lato:400,900|Montserrat:700,500&subset=latin-ext');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    list-style: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 10pt;
+}
+
+#root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.flexParent {
+    display: flex;
+	flex-direction: row;
+}
+
+.flexParent.col {
+    flex-direction: column;
+}
+
+.flexParent>div {
+    flex-grow: 1;
+}
+
+.flexParent.shrinker > div.filler {
+    flex-grow: 1;
+}
+
+.flexParent.shrinker > div {
+	flex-grow: 0;
+}
+
+.button {
+    font-family: 'Francois One', sans-serif;
+    padding:5px 10px;
+    margin-left:10px;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.button:hover, .button.active {
+    background: rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
